@@ -1,0 +1,148 @@
+/* Banner Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:560px; height:110px; overflow:hidden; float:left; }
+.jcarousel-skin-banner .jcarousel-container { float:left; }
+.jcarousel-skin-banner .jcarousel-container-horizontal { width: 540px; margin:0 10px 0 10px; }
+.jcarousel-skin-banner .jcarousel-clip-horizontal { width:  500px; height: 110px; margin:0 20px; }
+.jcarousel-skin-banner .jcarousel-item { width:240px; height:110px; text-align:center; }
+.jcarousel-skin-banner .jcarousel-item-horizontal { margin:0 5px 0 5px; }
+.jcarousel-skin-banner .jcarousel-item-placeholder { width:240px; height:110px; color: #000; }
+.jcarousel-skin-banner .jcarousel-next-horizontal { position: absolute; top: 0; right: 0; width: 20px; height: 110px; cursor: pointer; background:url(../Images/Slider/arrows_horizontal.png) no-repeat -20px 0; }
+.jcarousel-skin-banner .jcarousel-next-horizontal:hover { background-position: -20px -110px; }
+.jcarousel-skin-banner .jcarousel-next-horizontal:active { background-position: -20px 0; }
+.jcarousel-skin-banner .jcarousel-next-disabled-horizontal, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-banner .jcarousel-prev-horizontal { position: absolute; top: 0; left: 0; width: 20px; height: 110px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-banner .jcarousel-prev-horizontal:hover { background-position: 0 -110px; }
+.jcarousel-skin-banner .jcarousel-prev-horizontal:active { background-position: 0 -110px; }
+.jcarousel-skin-banner .jcarousel-prev-disabled-horizontal, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-banner li img { float:left; }
+.jcarousel-skin-banner li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-banner li a img { float:left; }
+.jcarousel-skin-banner li a:hover img { }
+/* Etkinlik Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:175px; height:275px; overflow:hidden; float:left; }
+.jcarousel-skin-etkinlik .jcarousel-container { float:left; }
+.jcarousel-skin-etkinlik .jcarousel-container-horizontal { width: 175px; margin:0px 0px 0px 0px; }
+.jcarousel-skin-etkinlik .jcarousel-clip-horizontal { width:  175px; height: 275px; margin:0px 0px; }
+.jcarousel-skin-etkinlik .jcarousel-item { width:175px; height:250px; overflow:hidden; }
+.jcarousel-skin-etkinlik .jcarousel-item-horizontal { margin:0px 0px 0px 0px; }
+.jcarousel-skin-etkinlik .jcarousel-item-placeholder { width:175px; height:275px; color: #000;}
+.jcarousel-skin-etkinlik .jcarousel-next-horizontal { position: absolute; bottom: 0; right: 0; width: 10px; height: 35px; cursor: pointer; background:url(../Images/Slider/arrows_horizontalsmall.png) no-repeat -10px 0; }
+.jcarousel-skin-etkinlik .jcarousel-next-horizontal:hover { background-position: -10px -55px; }
+.jcarousel-skin-etkinlik .jcarousel-next-horizontal:active { background-position: -10px 0; }
+.jcarousel-skin-etkinlik .jcarousel-next-disabled-horizontal, .jcarousel-skin-etkinlik .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-etkinlik .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-etkinlik .jcarousel-prev-horizontal { position: absolute; bottom: 0; right: 0; margin-right:20px; width: 10px; height: 35px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontalsmall.png) no-repeat 0 0; }
+.jcarousel-skin-etkinlik .jcarousel-prev-horizontal:hover { background-position: 0 -55px; }
+.jcarousel-skin-etkinlik .jcarousel-prev-horizontal:active { background-position: 0 -55px; }
+.jcarousel-skin-etkinlik .jcarousel-prev-disabled-horizontal, .jcarousel-skin-etkinlik .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-etkinlik .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-etkinlik li img { float:left; }
+.jcarousel-skin-etkinlik li { line-height:15px; }
+.jcarousel-skin-etkinlik li a img { float:left; }
+.jcarousel-skin-etkinlik li a:hover img { }
+/* Foto Galeri Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:560px; height:150px; overflow:hidden; float:left; }
+.jcarousel-skin-foto .jcarousel-container { float:left; }
+.jcarousel-skin-foto .jcarousel-container-horizontal { width: 540px; margin:0 10px 0 10px; }
+.jcarousel-skin-foto .jcarousel-clip-horizontal { width:  500px; height: 150px; margin:0 20px; }
+.jcarousel-skin-foto .jcarousel-item { width:160px; height:150px; text-align:center; }
+.jcarousel-skin-foto .jcarousel-item-horizontal { margin:0 4px 0 3px; }
+.jcarousel-skin-foto .jcarousel-item-placeholder { width:160px; height:150px; color: #000; }
+.jcarousel-skin-foto .jcarousel-next-horizontal { position: absolute; top: 0; right: 0; width: 20px; height: 150px; cursor: pointer; background:url(../Images/Slider/arrows_horizontal.png) no-repeat -20px 0; }
+.jcarousel-skin-foto .jcarousel-next-horizontal:hover { background-position: -20px -110px; }
+.jcarousel-skin-foto .jcarousel-next-horizontal:active { background-position: -20px 0; }
+.jcarousel-skin-foto .jcarousel-next-disabled-horizontal, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-foto .jcarousel-prev-horizontal { position: absolute; top: 0; left: 0; width: 20px; height: 150px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-foto .jcarousel-prev-horizontal:hover { background-position: 0 -110px; }
+.jcarousel-skin-foto .jcarousel-prev-horizontal:active { background-position: 0 -110px; }
+.jcarousel-skin-foto .jcarousel-prev-disabled-horizontal, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-foto li img { float:left; }
+.jcarousel-skin-foto li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-foto li a img { float:left; }
+.jcarousel-skin-foto li a:hover img { }
+.jcarousel-skin-foto .AlbumAdi  { width:380px; font-family:MyriadProCondensed; font-size:16px; text-align:left; z-index:999; }
+.jcarousel-skin-foto .TumAlbumler  { width:140px; font-family:MyriadProCondensed; font-size:16px; float:right; z-index:999; text-align:right; }
+/* Video Galeri Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:560px; height:150px; overflow:hidden; float:left; }
+.jcarousel-skin-video .jcarousel-container { float:left; }
+.jcarousel-skin-video .jcarousel-container-horizontal { width: 540px; margin:0 10px 0 10px; }
+.jcarousel-skin-video .jcarousel-clip-horizontal { width:  500px; height: 150px; margin:0 20px; }
+.jcarousel-skin-video .jcarousel-item { width:160px; height:150px; text-align:center; }
+.jcarousel-skin-video .jcarousel-item-horizontal { margin:0 4px 0 3px; }
+.jcarousel-skin-video .jcarousel-item-placeholder { width:160px; height:150px; color: #000; }
+.jcarousel-skin-video .jcarousel-next-horizontal { position: absolute; top: 0; right: 0; width: 20px; height: 150px; cursor: pointer; background:url(../Images/Slider/arrows_horizontal.png) no-repeat -20px 0; }
+.jcarousel-skin-video .jcarousel-next-horizontal:hover { background-position: -20px -110px; }
+.jcarousel-skin-video .jcarousel-next-horizontal:active { background-position: -20px 0; }
+.jcarousel-skin-video .jcarousel-next-disabled-horizontal, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-video .jcarousel-prev-horizontal { position: absolute; top: 0; left: 0; width: 20px; height: 150px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-video .jcarousel-prev-horizontal:hover { background-position: 0 -110px; }
+.jcarousel-skin-video .jcarousel-prev-horizontal:active { background-position: 0 -110px; }
+.jcarousel-skin-video .jcarousel-prev-disabled-horizontal, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-video li img { float:left; }
+.jcarousel-skin-video li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-video li a img { float:left; }
+.jcarousel-skin-video li a:hover img { }
+.jcarousel-skin-video .AlbumAdi  { width:380px; font-family:MyriadProCondensed; font-size:16px; text-align:left; z-index:999; }
+.jcarousel-skin-video .TumAlbumler  { width:140px; font-family:MyriadProCondensed; font-size:16px; float:right; z-index:999; text-align:right; }
+/* Video Galeri Slider */ /* aCC - CETINCONE */
+#carouselContentVertical { width:175px; height:340px; padding:0px 15px; overflow:hidden; text-align:center; }
+.jcarousel-skin-hizmet .jcarousel-container { background: none; float:left; }
+.jcarousel-skin-hizmet .jcarousel-container-vertical { width: 175px; height: 300px; padding: 20px 0 20px 0; }
+.jcarousel-skin-hizmet .jcarousel-clip-vertical { width:  175px; height: 300px; }
+.jcarousel-skin-hizmet .jcarousel-item { width: 175px; height:100px; text-align:center; }
+.jcarousel-skin-hizmet .jcarousel-item-vertical { margin-bottom: 2px; }
+.jcarousel-skin-hizmet .jcarousel-item-placeholder { color: #000; }
+.jcarousel-skin-hizmet .jcarousel-next-vertical { position: absolute; margin-left:33px;  *margin-left:-55px;
+bottom: 0; width: 108px; height: 20px; cursor: pointer; background: transparent url(../Images/Slider/arrows_vertical.png) no-repeat 0 -20px; }
+.jcarousel-skin-hizmet .jcarousel-next-vertical:hover { background-position: -110px -20px; }
+.jcarousel-skin-hizmet .jcarousel-next-vertical:active { background-position: 0 -20px; }
+.jcarousel-skin-hizmet .jcarousel-next-disabled-vertical, .jcarousel-skin-hizmet .jcarousel-next-disabled-vertical:hover, .jcarousel-skin-hizmet .jcarousel-next-disabled-vertical:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-hizmet .jcarousel-prev-vertical { position: absolute; margin-left:33px;  *margin-left:-55px;
+top: 0; width: 108px; height: 20px; cursor: pointer; background: transparent url(../Images/Slider/arrows_vertical.png) no-repeat 0 0; }
+.jcarousel-skin-hizmet .jcarousel-prev-vertical:hover { background-position: -110px 0; }
+.jcarousel-skin-hizmet .jcarousel-prev-vertical:active { background-position: 0 0; }
+.jcarousel-skin-hizmet .jcarousel-prev-disabled-vertical, .jcarousel-skin-hizmet .jcarousel-prev-disabled-vertical:hover, .jcarousel-skin-hizmet .jcarousel-prev-disabled-vertical:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-hizmet li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-hizmet img { border:none; }
+/* Canli Yayın Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:560px; height:150px; overflow:hidden; float:left; }
+.jcarousel-skin-canli .jcarousel-container { float:left; }
+.jcarousel-skin-canli .jcarousel-container-horizontal { width: 540px; margin:0 10px 0 10px; }
+.jcarousel-skin-canli .jcarousel-clip-horizontal { width:  500px; height: 150px; margin:0 20px; }
+.jcarousel-skin-canli .jcarousel-item { width:160px; height:150px; text-align:center; }
+.jcarousel-skin-canli .jcarousel-item-horizontal { margin:0 4px 0 3px; }
+.jcarousel-skin-canli .jcarousel-item-placeholder { width:160px; height:150px; color: #000; }
+.jcarousel-skin-canli .jcarousel-next-horizontal { position: absolute; top: 0; right: 0; width: 20px; height: 150px; cursor: pointer; background:url(../Images/Slider/arrows_horizontal.png) no-repeat -20px 0; }
+.jcarousel-skin-canli .jcarousel-next-horizontal:hover { background-position: -20px -110px; }
+.jcarousel-skin-canli .jcarousel-next-horizontal:active { background-position: -20px 0; }
+.jcarousel-skin-canli .jcarousel-next-disabled-horizontal, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-canli .jcarousel-prev-horizontal { position: absolute; top: 0; left: 0; width: 20px; height: 150px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-canli .jcarousel-prev-horizontal:hover { background-position: 0 -110px; }
+.jcarousel-skin-canli .jcarousel-prev-horizontal:active { background-position: 0 -110px; }
+.jcarousel-skin-canli .jcarousel-prev-disabled-horizontal, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-canli li img { float:left; }
+.jcarousel-skin-canli li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-canli li a img { float:left; }
+.jcarousel-skin-canli li a:hover img { }
+.jcarousel-skin-canli .AlbumAdi  { width:380px; font-family:MyriadProCondensed; font-size:16px; text-align:left; z-index:999; }
+.jcarousel-skin-canli .TumAlbumler  { width:140px; font-family:MyriadProCondensed; font-size:16px; float:right; z-index:999; text-align:right; }
+/* Canli Yayın Slider */ /* aCC - CETINCONE */
+#carouselContentHorizontal { width:560px; height:150px; overflow:hidden; float:left; }
+.jcarousel-skin-yayinlar .jcarousel-container { float:left; }
+.jcarousel-skin-yayinlar .jcarousel-container-horizontal { width: 540px; margin:0 10px 0 10px; }
+.jcarousel-skin-yayinlar .jcarousel-clip-horizontal { width:  500px; height: 150px; margin:0 20px; }
+.jcarousel-skin-yayinlar .jcarousel-item { width:160px; height:150px; text-align:center; }
+.jcarousel-skin-yayinlar .jcarousel-item-horizontal { margin:0 4px 0 3px; }
+.jcarousel-skin-yayinlar .jcarousel-item-placeholder { width:160px; height:150px; color: #000; }
+.jcarousel-skin-yayinlar .jcarousel-next-horizontal { position: absolute; top: 0; right: 0; width: 20px; height: 150px; cursor: pointer; background:url(../Images/Slider/arrows_horizontal.png) no-repeat -20px 0; }
+.jcarousel-skin-yayinlar .jcarousel-next-horizontal:hover { background-position: -20px -110px; }
+.jcarousel-skin-yayinlar .jcarousel-next-horizontal:active { background-position: -20px 0; }
+.jcarousel-skin-yayinlar .jcarousel-next-disabled-horizontal, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-next-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-yayinlar .jcarousel-prev-horizontal { position: absolute; top: 0; left: 0; width: 20px; height: 150px; cursor: pointer; background: transparent url(../Images/Slider/arrows_horizontal.png) no-repeat 0 0; }
+.jcarousel-skin-yayinlar .jcarousel-prev-horizontal:hover { background-position: 0 -110px; }
+.jcarousel-skin-yayinlar .jcarousel-prev-horizontal:active { background-position: 0 -110px; }
+.jcarousel-skin-yayinlar .jcarousel-prev-disabled-horizontal, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:hover, .jcarousel-skin-banner .jcarousel-prev-disabled-horizontal:active { cursor: default; background-position: 0 -300px; }
+.jcarousel-skin-yayinlar li img { float:left; }
+.jcarousel-skin-yayinlar li { color:#c4adf1; line-height:12px; }
+.jcarousel-skin-yayinlar li a img { float:left; }
+.jcarousel-skin-yayinlar li a:hover img { }
+.jcarousel-skin-yayinlar .AlbumAdi  { width:380px; font-family:MyriadProCondensed; font-size:16px; text-align:left; z-index:999; }
+.jcarousel-skin-yayinlar .TumAlbumler  { width:140px; font-family:MyriadProCondensed; font-size:16px; float:right; z-index:999; text-align:right; }

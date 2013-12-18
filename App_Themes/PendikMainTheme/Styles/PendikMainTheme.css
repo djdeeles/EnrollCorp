@@ -1,0 +1,122 @@
+﻿/* CSS Document */ /* aCC - CETINCONE */
+@import url("MansetSliderKontrol.css");
+body, html { margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#373737; display:block; background-color:#D4D4D4; }
+body a { text-decoration:none; outline:none; color:#074170; cursor:pointer; }
+body a:hover { text-decoration:none; color:#852243; cursor:pointer; }
+img { border:none; }
+/*Font Import*/ /* aCC - CETINCONE */
+@font-face { font-family: 'MyriadProBoldCondensed'; src: url('../Font/myriadpro-boldcond-webfont.eot'); src: url('../Font/myriadpro-boldcond-webfont.eot?#iefix') format('embedded-opentype'), url('../Font/myriadpro-boldcond-webfont.woff') format('woff'), url('../Font/myriadpro-boldcond-webfont.ttf') format('truetype'), url('../Font/myriadpro-boldcond-webfont.svg#MyriadProBoldCondensed') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MyriadProCondensed'; src: url('../Font/myriadpro-cond-webfont.eot'); src: url('../Font/myriadpro-cond-webfont.eot?#iefix') format('embedded-opentype'), url('../Font/myriadpro-cond-webfont.woff') format('woff'), url('../Font/myriadpro-cond-webfont.ttf') format('truetype'), url('../Font/myriadpro-cond-webfont.svg#MyriadProCondensed') format('svg'); font-weight: normal; font-style: normal; }
+/*Site Genel*/ /* aCC - CETINCONE */
+#header { height:100%; width:100%; text-align:center; background-image:url(../Images/headerback.jpg); }
+.header { height:122px; width:980px; margin:0 auto; text-align:left; display:block; }
+.pendiklogo { width:375px; height:78px; margin:5px 10px 0px 0px; float:left; }
+.searchContainer { display: none;width: 240px;height: 25px;position: absolute;z-index: 9999;background-color:#fff;left:0;top:0; padding:7px 10px;border: 1px solid #b9b9b9;*border: 1px solid #9e9e9e;-moz-border-radius: 7px;-webkit-border-radius: 7px;border-radius: 7px;box-shadow: 0 0 10px #b9b9b9;-moz-box-shadow: 0 0 10px #b9b9b9;-webkit-box-shadow: 0 0 10px #b9b9b9; }
+.searchbutton { font-family:MyriadProBoldCondensed; font-size:14px; }
+.searchtitle { font-family: MyriadProCondensed; font-size: 20px; color: #852243; margin-bottom: 10px; width:775px; float:left; }
+.searchresult { width: 745px; margin-bottom: 10px; border-collapse:collapse; }
+.searchresulttitle { font-family:MyriadProCondensed; font-size:18px; margin-bottom: 3px; }
+.searchresultgorsel { float: left; width: 75px; height: 50px; overflow: hidden; margin-right: 5px; }
+.searchresultozet { width: 650px; float: left; display:inline; }
+.siteharitabaslik { font-family:MyriadProCondensed; font-size:20px; color:#074170; }
+.siteharitasi { width:370px; margin-bottom:15px; }
+#content { width:100%; height:100%; text-align:center; background-image:url(../Images/back.jpg); background-repeat:no-repeat; background-position:center center; /*background-attachment:fixed;*/ -o-background-size: 100% 100%, auto; -moz-background-size: 100% 100%, auto; -webkit-background-size: 100% 100%, auto; background-size: 100% 100%, auto; padding-bottom:10px; }
+.content { width:990px; height:100%; margin:0 auto; text-align:left; display: inline-table; border-collapse:collapse; border:0; }
+#footer { height:100%; width:100%; text-align:center; background-image:url(../Images/footerback.jpg); }
+.footer { height:100%; width:980px; margin:0 auto; text-align:left; }
+.footertext { font-size:10px; width:500px; }
+.social { float:left; margin-left:273px; margin-top:20px; width:320px; height:21px; font-size:11px; }
+.contentleft { width:205px; height:100%; float:left; display:block; margin-right:5px; margin-top:-5px; *margin-top:0px; }
+.contentright { width:205px; height:100%; float:left; display:block; margin-left:5px;  *margin-top:0px; }
+.contentcenter { width:560px; height:100%; float:left; display:block; *margin-top:0px; }
+.baskan { float:left; width:205px; height:272px; background-image:url(../Images/baskan_1.png) }
+.contentsidemodule { width:205px; height:100%; float:left; margin-top:5px; }
+.contentsidemodulelabel { width:175px; height:100%; float:left; padding:12px 10px 12px 16px; font-family:MyriadProCondensed; font-size:20px; vertical-align:middle; color:White; text-decoration:none; }
+.contentmainbanner { width:775px; height:125px; float:left; display:block; }
+.contentmainbannertext { width:775px; height:125px; float:left; display:block; margin-top:-130px;}
+.contentmainbannertext .contentmainbannerbaslik { width:735px; padding:35px 20px; text-align:right; display:block; font-family:MyriadProCondensed; font-size:22px; }
+.contentmainbannertext .contentmainbannerharita { width:735px; padding:0px 20px 0 20px; text-align:right; display:block; font-size:11px;}
+.contentsidemodulebannertop{ width:205px; height:10px; background-image:url(../Images/contentsidemodulebannertop.png); float:left; }
+.contentsidemoduletop { width:205px; height:35px; background-image:url(../Images/contentsidemoduletop.png); float:left; }
+.contentsidemodulemed { width:175px; height:100%; padding:10px 15px; background-image:url(../Images/contentsidemodulemed.png); float:left; }
+.contentsidemodulebottom { width:205px; height:10px; background-image:url(../Images/contentsidemodulebottom.png); float:left; }
+.contentmainmodule { width:560px; height:100%; float:left; display:block; margin-top:5px; }
+.contentmainmoduletop { width:560px; height:10px; float:left; display:block; background-image:url(../Images/contentmainmoduletop.png); }
+.contentmainmodulemed { width:560px; height:100%; float:left; display:block; background-image:url(../Images/contentmainmodulemed.png); }
+.contentmainmodulebottom { width:560px; height:10px; float:left; display:block; background-image:url(../Images/contentmainmodulebottom.png); }
+.contentmain { width:775px; height:100%; float:left; display:block; margin-top:-5px;}
+.contentmainsocial {width:745px; float:right; text-align:right; display:block; margin-bottom:5px; margin-top:-3px; }
+.contentmaintop { width:775px; height:10px; float:left; display:block; background-image:url(../Images/contentmaintop.png); margin-top:3px;}
+.contentmainmed { width:745px; padding:10px 15px 5px 15px; height:100%; float:left; display:block; background-image:url(../Images/contentmainmed.png); padding-bottom:15px; }
+.contentmainbottom { width:775px; height:10px; float:left; display:block; background-image:url(../Images/contentmainbottom.png); }
+.contentmainmed .Images { width: 280px; float: left; margin-top:8px; }
+.contentmainmed .Detay { margin-left:10px; width: 455px; float: right; margin-top:2px; }
+.contentmainmed .Baslik { width:390px; font-family:MyriadProCondensed; font-size:20px; float: left; margin-top:5px;}
+.contentmainmed .Tarih {  font-size:10px; float: left; width:50px; margin-left:10px; margin-top:10px;}
+.contentmainmed .Icerik { float:left; width: 455px; margin-top:10px; overflow:hidden;}
+.contentmainmed .List { width: 720px; float: left; margin-bottom:10px; border:1px #E6E6E6 solid; padding:10px;}
+.contentmainmed .ListImage { width: 175px; max-height:130px; float: left; overflow:hidden;}
+.contentmainmed .ListDetay { margin-left:10px; width: 535px; float: left; }
+.contentmainmed .ListBaslik { width:475px; font-family:MyriadProCondensed; font-size:20px; float: left; margin-top:5px;}
+.contentmainmed .ListTarih {  font-size:10px; float: left; width:40px; margin-left:10px; margin-top:5px;}
+.contentmainmed .ListOzet { float:left; width: 475px; margin-top:5px;}
+.hizmetlertop { width:205px; height:15px; background-image:url(../Images/hizmetlertop.png); float:left; }
+.hizmetlermed { width:205px; height:100%; background-image:url(../Images/hizmetlermed.png); float:left; }
+.hizmetlerbottom { width:205px; height:17px; background-image:url(../Images/hizmetlerbottom.png); float:left; }
+#habertab { width:560px; }
+ul.habertabs { width:560px; margin-top:-47px; *margin-left:0; padding:10px; }
+ul.habertabs li { display:block; float:left; background-image:url(../Images/MansetTab/MansetTab_On.png); width:83px; height:32px; }
+ul.habertabs li a { display:block; float:left; width:83px; height:16px; text-align:center; padding:8px 0px; color:#fff; font-family:MyriadProCondensed; font-size:18px; }
+.haberselected { background-image:url(../Images/MansetTab/MansetTab.png); width:83px; height:32px; color:#074170 !important; }
+.haberdelected { position: absolute; left: -10000px; }
+.habertab-content { margin-top:30px; *margin-top:-20px; }
+#galeritab { width:560px; }
+ul.galeritabs { width:560px; margin-top:-47px; *margin-left:0; padding:10px; }
+ul.galeritabs li { display:block; float:left; background-image:url(../Images/MansetTab/MansetTab_On.png); width:83px; height:32px; }
+ul.galeritabs li a { display:block; float:left; width:83px; height:16px; text-align:center; padding:8px 0px; color:#fff; font-family:MyriadProCondensed; font-size:18px; }
+.galeriselected { background-image:url(../Images/MansetTab/MansetTab.png); width:83px; height:32px; color:#074170 !important; }
+.galeridelected { position: absolute; left: -10000px; }
+.galeritab-content { margin-top:30px; *margin-top:-20px; }
+#aznav { padding: 0 0 0 0px; margin: 0; }
+#aznav dt b, #aznav dt a { display: inline; font-weight: normal; font-family:MyriadProCondensed; font-size:16px; color:#074170; line-height: 25px; cursor: pointer; }
+#aznav dt { margin-left: 0px; }
+#aznav dd { padding: 0; margin: 2px 0px 5px 0px; }
+#aznav dd ul { padding: 0; margin: 0; list-style: none; }
+#aznav dd ul li {  }
+#aziletisim { padding: 15px 0 5px 2px; margin: 0; }
+#aziletisim dt b, #aziletisim dt a { display: inline; line-height: 23px; cursor: pointer; } 
+#aziletisim dt { margin-left: 0px; }
+#aziletisim dd { padding: 0; margin: 2px 0px 5px -2px; }
+#aziletisim dd ul { padding: 0; margin: 0; list-style: none; }
+#aziletisim dd ul li {  }
+/*Kontrol CSS*/ /* aCC - CETINCONE */
+.SosyalPaylasimKontrol { text-align:center; width:175px; }
+.AnketKontrol { width:175px; }
+/*Üst Menü CSS*/ /* aCC - CETINCONE */
+.ustmenu { float:right; width:100% inherit; height:35px; font-family:MyriadProBoldCondensed; font-size:14px; }
+.ustmenuleft { background-image: url(../Images/ustmenusol.png); background-repeat:no-repeat; width:15px; height:35px; float:left; }
+.ustmenumed { background-image: url(../Images/ustmenuorta.png); background-repeat:repeat; width:auto; max-width:500px; overflow:hidden; height:35px; float:left; vertical-align:top; }
+.ustmenuright { background-image: url(../Images/ustmenusag.png); background-repeat:no-repeat; width:15px; height:35px; float:left; }
+.ustmenu a { margin:0 5px 0 5px; font-family:MyriadProBoldCondensed; font-size:14px; }
+/*ANA Menü CSS*/ /* aCC - CETINCONE */
+.mainmenu { float:right; min-width:500px; width:100%; margin:0px auto; padding-top:12px; *margin-top:-20px;
+height:31px; text-align:center; font-family:MyriadProCondensed; font-size:20px; vertical-align:middle; color:White; text-decoration:none; }
+.verticalStatic a { color:#fff; padding-left:15px; padding-right:15px; }
+.verticalStatic a:hover { color:#BAE7FE }
+.menuStatic { text-align:left; padding-left:5px; }
+.verticalDynamic { margin-top:6px; *margin-top:5px; margin-top:4px\9; border:1px solid #083962; }
+.verticalDynamic_item, .verticalDynamic_item a { background-color:#083962; color:#fff; padding:6px 20px 6px 5px; text-align:left; font-size:15px; }
+.verticalDynamic_item:hover, .verticalDynamic_item:hover a { background-color:#fff; color:#083962; }
+/*Hizmet Menü CSS*/ /* aCC - CETINCONE */
+.hizmetmenu { width: 175px; text-align: left; padding: 0px 15px; }
+/*Sol Menü CSS*/ /* aCC - CETINCONE */
+.contentleftmenu { float:left; width:205px; height:100%; font-size: 16px; font-family: MyriadProCondensed; overflow:hidden; }
+.contentleftmenutext { width: 175px; font-size: 19px; padding:5px 0 10px 0; color:#841C32; font-family: MyriadProCondensed; }
+/*Baskan Menü CSS*/ /* aCC - CETINCONE */
+.baskanmetin { width: 175px; color: #841c32; font-size: 19px; font-family: MyriadProCondensed; padding:10px 10px 5px 15px; }
+.baskanmenu { width: 175px; font-size: 16px; font-family: MyriadProCondensed; padding: 0px 10px 0px 15px; }
+/*ALT Menü CSS*/ /* aCC - CETINCONE */
+.footermenu { width:980px; margin:0 auto; padding:10px; height:240px; text-align:center; overflow:hidden; }
+.footermainitem { font-family:MyriadProCondensed; font-size:20px; text-decoration:none; }
+.footeritem { font-family:MyriadProCondensed; font-size:16px; text-decoration:none; }
+/* CSS Document */ /* aCC - CETINCONE */

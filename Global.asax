@@ -1,0 +1,1 @@
+﻿<%@ Application CodeBehind="Global.asax.cs" Inherits="EnrollKurumsal.Global" Language="C#" %>

@@ -1,0 +1,4 @@
+﻿body { background-image: url('../Images/back.jpg'); font-family: Trebuchet MS; font-size: 11px; }
+.container { width: 500px; height: 290px; margin:0 auto; background-image: url('../Images/admin_login.png'); background-repeat: no-repeat; display: table; }
+.panel { width: 285px; height: 200px; margin: 110px 25px 0 175px; }
+.enroll { width:75px; height:50px; margin: 0px 0px 0px 230px; }
